@@ -150,7 +150,7 @@ let render = function () {
 		ctx.fillRect(180, 200, 150, 100);
 		ctx.fillStyle = "#FF0000";
 		ctx.fillText("Game Over!", 200, 250);
-		
+		reload();
 
 	} else {
 		document.getElementById("remaining-time").innerHTML = `${SECONDS_PER_ROUND - elapsedTime}`;
